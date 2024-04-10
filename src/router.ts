@@ -4,10 +4,10 @@
 import { components, hooks, utils } from '@generouted/react-router/client'
 
 export type Path =
-  | `/`
-  | `/about`
-  | `/contacts`
-  | `/projects`
+  | `/portfolio`
+  | `/portfolio/about`
+  | `/portfolio/contacts`
+  | `/portfolio/projects`
 
 export type Params = {
   
