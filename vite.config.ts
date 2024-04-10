@@ -5,6 +5,7 @@ import generouted from '@generouted/react-router/plugin'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/portfolio/",
   plugins: [react(), generouted()],
   resolve: {
     alias: {
